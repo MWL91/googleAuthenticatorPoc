@@ -1,0 +1,18 @@
+{
+    "name": "mwl91/google-authenticator",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mwl91\\GoogleAuthenticator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcin Lenkowski",
+            "email": "marcin.lenkowski@zyagnum.com"
+        }
+    ],
+    "require": {
+        "spomky-labs/otphp": "^11.2"
+    }
+}
